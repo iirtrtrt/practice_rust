@@ -12,7 +12,7 @@ pub fn new_frame() -> Frame {
         cols.push(col);
     }
 
-    return cols;
+    cols
 }
 
 pub trait Drawable {
